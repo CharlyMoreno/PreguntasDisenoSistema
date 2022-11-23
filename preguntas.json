@@ -1,7 +1,7 @@
 [
     {
-        "pregunta":"¿Que son los patrones grasp?",
-        "respuesta":"Los patrones GRASP son patrones generales de software para asignar responsabilidades. Describen los principios fundamentales del diseño de objetos y la asignación de responsabilidades, en forma de patrones"
+        "pregunta":"¿Que son los patrones grasp?¿Para que sirven?",
+        "respuesta":"Los patrones GRASP son patrones generales de software para asignar responsabilidades. Describen los principios fundamentales del diseño de objetos y la asignación de responsabilidades, en forma de patrones </br> Una responsabilidad es la obligacion de una clase de conocer o hacer </br> Hacer: </br> •Hacer algo el mismo </br> •Iniciar una accion en otros objetos </br> Controlar y coordinar actividad en otros objetos </br> Conocer: </br> •Conocer datos privados </br> •Iniciar una accion en otros objetos </br> •Controlar y coordinar actividad en otros objetos"
     },
     {
         "pregunta":"¿Que garantiza una pos condición?",
@@ -37,7 +37,7 @@
         "respuesta":"Guardar objetos en un mecanismo persistente. Recuperar objetos de un mecanismo persistente. Administrar las operaciones persistentes con el fin de asegurar que sean atómicas. Permitir el uso de componentes y transacciones distribuidas. Que la aplicación no quede acoplada al framework, es decir que el framework utilizado pueda cambiarse por otro framework sin afectar al experto."
     },
     {
-        "pregunta":") Nombrar los participantes del flujo de diseño",
+        "pregunta":"Nombrar los participantes del flujo de diseño",
         "respuesta":"Los participantes son 3: 1) El arquitecto. 2) El ingeniero de Casos de uso. 3) El ingeniero de Componentes."
     },
     {
@@ -67,5 +67,60 @@
     {
         "pregunta":"Par Problema/solución polimorfismo",
         "respuesta":"Problema: ¿Cómo manejar las alternativas basadas en tipos? ¿Cómo crear componentes de software conectables? </br> Solución: Asignar responsabilidades del comportamiento, mediante operaciones polimórficas, a los tipos para los que varía el comportamiento."
+    },
+    {
+        "pregunta":"Patrones GRASP relacionados con el adaptador",
+        "respuesta":"La aplicacion del patron adaptador es una especializacion de los componentes basicos GRASP ofrece VARIACIONES PROTEGIDAS de los cambios de las interfaces externas o paquetes de terceras partes mediante un objeto INDIRECCION que aplica interfaces y POLIMORFISMO"
+    },
+    {
+        "pregunta":"Indique V o F y justifique. Si un sistema se tiene que comunicar con un sistema externo tiene sentido utilizar patron indireccion",
+        "respuesta":"Verdadero. Pero si necesito comunicarme con mas de un sistema del mismo tipo o similares conviene utilizar Patron Adaptador para los mismos"
+    },
+    {
+        "pregunta":"Patron variaciones protegidas",
+        "respuesta":"Problema: ¿Como diseñar objetos, subsitemas y sistemas de manera que las variaciones o inestabilidades en estos elementos no tengan un impacto no deseable en otros elementos </br> Solucion: Identificar los puntos de variaciones previstas o de insetabilidad y asignar responsabilidades para crear una interfaz estable alrededor de ellos"
+    },
+    {
+        "pregunta":"Enuncie el patron indireccion",
+        "respuesta":"Problema: ¿Como asignar una responsabilidad sin que se acomplen directamente dos o mas objetos?¿Como desacoplar, permitiendo la reutilizacion? </br> Solucion: Asignar la responsabilidad a un objeto intermediario que medie entre otros componentes de manera que no se acoplen directamente. </br> Patrones relacionados: El objeto indireccion suele ser una fabricacion pura. Bajo acoplamiento y variaciones protegidas"
+    },
+    {
+        "pregunta":"¿Que es la cohesion?. Enuncie el patron alta cohesion, explicar relacion con acoplamiento.",
+        "respuesta":"La cohesion es la medida de fuerza en que las responsabilidades de un elemento estan relacionadas y el grado de focalizacion de las mismas </br> Problema: ¿Como mantener la complejidad manejable? </br> Solucion: Asignar respnsabilidades para mantener la alta cohesion. </br> Subir la cohesion es bueno, pero sube el acomplamiento que no es bueno. Al bajar el acoplamiento la cohesion tambien baja. Por ello lo ideal es llegar a un punto de equilibrio"
+    },{
+        "pregunta":"Patron bajo acoplamiento",
+        "respuesta":"Problema: ¿Como soportar bajas dependencias, bajo impacto del cambio e incremento de la reutilizacion? </br> Solucion: Asigne una responsabilidad de manera que el acoplamiento permanezca bajo </br> Acoplamiento: Confiar en otras clases"
+    },
+    {
+        "pregunta":"Patron experto en informacion",
+        "respuesta":"Problema: ¿Cual es el principio general para asignar responsabilidades a los objetos? </br> Solucion: Asigne una responsabilidad al experto en informacion -La clase que tiene la informacion necesaria para realizar la responsabilidad-"
+    },
+    {
+        "pregunta":"Patron creador",
+        "respuesta":"Problema: ¿Quien deberia ser el responsable de la creacion de una nueva instancia de una clase? </br> Solucion: Asignar a B la responsabilidad de crear una instancia de A si: </br> •B contiene o agrega objetos de A </br> •B registra objetos de A </br> •B utiliza mas estrechamente objetos de A </br> •B tiene los datos de inicializacion que se pasaran de un objeto de A al ser creado"
+    },
+    {
+        "pregunta":"Patron controlador",
+        "respuesta":"Problema: ¿Quien debe ser responsable de gestionar un evento del sistema? </br> Solucion: Asigne la responsabilidad de recibir o manejar un mensaje de evento del sistema a una clase que representa una de las siguientes opciones: </br> •Representa el sistema global, dispositivo o subsistems"
+    },
+    {
+        "pregunta":"Patron fabricacion pura",
+        "respuesta":"Problema: ¿Que objetos deberian rener la responsabilidad cuando no se quiere violar la alta cohesion ni bajo acoplamiento, y otros, pero las soluciones que ofrece el experto, por ejemplo, no son adecuadas? </br> Solucion: Asigne un conjunto de responsabilidades altamente cohesivo a una clase artificial o de conveniencia que no respeta un concepto del dominio del problema"
+    },
+    {
+        "pregunta":"Desventajas de la baja cohesion",
+        "respuesta":"•Dificil de entender </br> •Dificil de mantener </br> •Baja reutilizacion"
+    },
+    {
+        "pregunta":"Enumerar y desarrollar las relaciones binarias en MER",
+        "respuesta":"•1 a 1: Relaciones con el maximo de restriccion </br> •1 a N: Relaciones con algun tipo de restriccion </br> •N a N: Relaciones sin ninguna restriccion </br> •Supertipo - subtipo </br> •Reflexividad </br> En donde se reflejaba una relacion reflexiva: En la misma tabla, o en la tabla asociativa en el caso de que la relacion sea N a M </br> Sobre que atributos se aplica la segunda forma normal: Se aplica sobre los atributos compuestos"
+    },
+    {
+        "pregunta":"Justificar si puede o no existir una relacion recursiva N-N en un modelo conceptual",
+        "respuesta":"Una relacion N-N puede existir en un diagrama conceptual, pero si hablamos de diagrama entidad relacion cuando nos encontramos con una relacion N-N obligatoriamente hay que crear una tabla asociativa intermedia que contendria las 2 claves primarias de las clases."
+    },
+    {
+        "pregunta":"¿Que garantiza que un modelo de datos relacional tenga calidad?, desarrollar",
+        "respuesta":"Garantiza que este en: </br> •1 forma normal: Se define una clave unica, no nula, para una table </br> •2 forma normal: Los atributos no llave dependen del atributo llave  </br> •3 forma normal: los atributos no llave son dependientes entre si"
     }
 ]
