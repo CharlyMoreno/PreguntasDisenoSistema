@@ -1,0 +1,71 @@
+[
+    {
+        "pregunta":"¿Que son los patrones grasp?",
+        "respuesta":"Los patrones GRASP son patrones generales de software para asignar responsabilidades. Describen los principios fundamentales del diseño de objetos y la asignación de responsabilidades, en forma de patrones"
+    },
+    {
+        "pregunta":"¿Que garantiza una pos condición?",
+        "respuesta":"Una post condición o garantía de éxito establece qué debe cumplirse cuando el caso de uso se completa con éxito. La garantía debería satisfacer las necesidades de todo el personal involucrado"
+    },
+    {
+        "pregunta":"Cuales son los patrones grasp?",
+        "respuesta":"Son 9. Experto,Creador,Controlador,Alta cohesion,bajo acoplamiento,polimorfismo, fabricacion pura, indireccion, variaciones protegidas"
+    },
+    {
+        "pregunta":"Las 3 categorias de patrones gof son?",
+        "respuesta":"Patrones Creacionales, Patrones Estructurales, Patrones de Comportamiento"
+    }
+    ,
+    {
+        "pregunta":"GOF: Nombrar Patrones Creacionales",
+        "respuesta":"Fabrica, Singleton"
+    }    ,
+    {
+        "pregunta":"GOF: Nombrar Patrones Estructurales",
+        "respuesta":"Adaptador, Composite, Decorador, Fachada"
+    }    ,
+    {
+        "pregunta":"GOF: Nombrar Patrones de Comportamiento",
+        "respuesta":"Comando, Observador, Estrategia, Plantilla"
+    },
+    {
+        "pregunta":"Explicar el Problema/Solución del patrón DTO",
+        "respuesta":"Problema: ¿Cómo puedo intercambiar datos entre diferentes capas de una aplicación de manera de mantener un bajo acoplamiento entre ella? </br> Solución: Crear pseudo-entidades, a medida de las necesidades. Es decir, definir clases (nombradas como DTO…) con los atributos necesarios para representar los datos que se  desean intercambiar entre las diferentes capas."
+    },
+    {
+        "pregunta":"Nombrar los objetivos del Esquema de Persistencia. ",
+        "respuesta":"Guardar objetos en un mecanismo persistente. Recuperar objetos de un mecanismo persistente. Administrar las operaciones persistentes con el fin de asegurar que sean atómicas. Permitir el uso de componentes y transacciones distribuidas. Que la aplicación no quede acoplada al framework, es decir que el framework utilizado pueda cambiarse por otro framework sin afectar al experto."
+    },
+    {
+        "pregunta":") Nombrar los participantes del flujo de diseño",
+        "respuesta":"Los participantes son 3: 1) El arquitecto. 2) El ingeniero de Casos de uso. 3) El ingeniero de Componentes."
+    },
+    {
+        "pregunta":"Explicar que es la precondición del CU y relacionarlo con la condición Inicial de un CU.",
+        "respuesta":"Las precondiciones son los hechos que se han de cumplir para que el flujo de evento se pueda llevar a cabo. Las precondiciones declaran lo que DEBE ser siempre verdadero antes de iniciar el escenario en el caso de uso. Las precondiciones no son probadas dentro del caso de uso, son condiciones que se asumen verdaderas. Normalmente, una precondición implica un escenario de otro caso de uso que se ha completado satisfactoriamente"
+    },
+    {
+        "pregunta":"Problema solución Estrategia",
+        "respuesta":"Problema: ¿Cómo diseñar algoritmos/políticas relacionadas? ¿Cómo diseñar estos algoritmos/políticas para que puedan cambiar? </br> Solución: Definir cada algoritmo/política en una clase independiente que implementen una interfaz común"
+    },
+    {
+        "pregunta":"Problema solución Alta Cohesión",
+        "respuesta":"Problema: ¿Cómo mantener la complejidad manejable? </br> Solución: Asignar responsabilidades de forma tal que se mantenga la alta cohesión"
+    },
+    {
+        "pregunta":"Definir instancia de CU",
+        "respuesta":"Una instancia de caso de uso es la ejecución de un caso de uso. Son los pasos que el sistema realiza cuando obedece a un caso de uso"
+    },
+    {
+        "pregunta":"Definir CU",
+        "respuesta":"Un CU es un fragmento de funcionalidad de un sistema que devuelve un resultado importante a un actor"
+    },
+    {
+        "pregunta":"Para qué sirve el patrón OID y en qué modelo se usa?",
+        "respuesta":"El patrón OID se utiliza para determinar la unicidad de una entidad en un esquema de persistencia. Se utiliza para tener algún tipo de referencia entre la entidad y los registros de la tabla correspondiente. Se usa en el modelo de diseño"
+    },
+    {
+        "pregunta":"Par Problema/solución polimorfismo",
+        "respuesta":"Problema: ¿Cómo manejar las alternativas basadas en tipos? ¿Cómo crear componentes de software conectables? </br> Solución: Asignar responsabilidades del comportamiento, mediante operaciones polimórficas, a los tipos para los que varía el comportamiento."
+    }
+]
