@@ -138,5 +138,9 @@
     {
         "pregunta":"¿Que es un framework?",
         "respuesta":"Es un conjunto de clases abstractas y concretas que colaboran entre si y que se pueden utilizar como plantilla para solucionar una familia de problemas relacionados."
+    },
+    {
+        "pregunta":"Explicar los estereotipos del modelo de analisis",
+        "respuesta":"•Interfaz: modelan la interaccion entre los actores y el sistema. Modela la parte del sistema que depende de los actores <br> •Control: Coordinacion, secuencia, transacciones y controles de otros objetos. Encapsulan el control y la logica del CU y la del negocio. Aspectos dinamicos del sistema <br> •Entidad: Informacion que posee larga vida en el sistema y a menudo persiste. Informacion y comportamiento de un objeto o suceso del mundo real. Derivan del modelo de dominio de negocio"
     }
 ]

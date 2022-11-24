@@ -25,3 +25,39 @@ body{
     background-color: rgb(46, 46, 70);
     color: white;
 }
+
+.preguntasGallery{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    background-color: rgb(24, 5, 37);
+    padding: 0.5rem 0 2rem 0;
+    border-radius: 2rem;
+    max-height: 3.5rem;
+    overflow-y: hidden;
+    transition: all 15s;
+}
+.preguntasGallery:hover{
+    max-height: 800rem;
+}
+
+.preguntasCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+    color: black;
+    border-radius: 2rem;
+    width: 90%;
+}
+
+.correcta{
+    background-color: rgb(135, 228, 135);
+}
+.incorrecta{
+    background-color: rgb(241, 119, 119);
+}
