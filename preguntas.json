@@ -1,11 +1,11 @@
 [
     {
         "pregunta":"¿Que son los patrones grasp?¿Para que sirven?",
-        "respuesta":"Los patrones GRASP son patrones generales de software para asignar responsabilidades. Describen los principios fundamentales del diseño de objetos y la asignación de responsabilidades, en forma de patrones </br> Una responsabilidad es la obligacion de una clase de conocer o hacer </br> Hacer: </br> •Hacer algo el mismo </br> •Iniciar una accion en otros objetos </br> Controlar y coordinar actividad en otros objetos </br> Conocer: </br> •Conocer datos privados </br> •Iniciar una accion en otros objetos </br> •Controlar y coordinar actividad en otros objetos"
+        "respuesta":"Los patrones GRASP son patrones generales de software para asignar responsabilidades. Describen los principios fundamentales del diseño de objetos y la asignación de responsabilidades, en forma de patrones </br> Una responsabilidad es la obligacion de una clase de conocer o hacer </br> Hacer: </br> •Hacer algo el mismo </br> •Iniciar una accion en otros objetos </br> •Controlar y coordinar actividad en otros objetos </br> Conocer: </br> •Conocer datos privados </br> •Iniciar una accion en otros objetos </br> •Controlar y coordinar actividad en otros objetos"
     },
     {
-        "pregunta":"¿Que garantiza una pos condición?",
-        "respuesta":"Una post condición o garantía de éxito establece qué debe cumplirse cuando el caso de uso se completa con éxito. La garantía debería satisfacer las necesidades de todo el personal involucrado"
+        "pregunta":"Post condicion y estado final",
+        "respuesta":"Una post condición o garantía de éxito establece qué debe cumplirse cuando el caso de uso se completa con éxito. La garantía debería satisfacer las necesidades de todo el personal involucrado  </br> El estado final se valida que las insancias de las entidades se hayan creado o modificado"
     },
     {
         "pregunta":"Cuales son los patrones grasp?",
@@ -42,7 +42,7 @@
     },
     {
         "pregunta":"Explicar que es la precondición del CU y relacionarlo con la condición Inicial de un CU.",
-        "respuesta":"Las precondiciones son los hechos que se han de cumplir para que el flujo de evento se pueda llevar a cabo. Las precondiciones declaran lo que DEBE ser siempre verdadero antes de iniciar el escenario en el caso de uso. Las precondiciones no son probadas dentro del caso de uso, son condiciones que se asumen verdaderas. Normalmente, una precondición implica un escenario de otro caso de uso que se ha completado satisfactoriamente"
+        "respuesta":"Las precondiciones son los hechos que se han de cumplir para que el flujo de evento se pueda llevar a cabo. Las precondiciones declaran lo que DEBE ser siempre verdadero antes de iniciar el escenario en el caso de uso. Las precondiciones no son probadas dentro del caso de uso, son condiciones que se asumen verdaderas. Normalmente, una precondición implica un escenario de otro caso de uso que se ha completado satisfactoriamente <br> El estado inicial establece un punto de partida para poner en contexto la ejecucion del CU. No se confia en el, se debe asegurar estas condiciones antes de ejecutarse"
     },
     {
         "pregunta":"Problema solución Estrategia",
@@ -122,5 +122,21 @@
     {
         "pregunta":"¿Que garantiza que un modelo de datos relacional tenga calidad?, desarrollar",
         "respuesta":"Garantiza que este en: </br> •1 forma normal: Se define una clave unica, no nula, para una table </br> •2 forma normal: Los atributos no llave dependen del atributo llave  </br> •3 forma normal: los atributos no llave son dependientes entre si"
+    },
+    {
+        "pregunta":"Definir conceptos de clase abstracta e interfaz, diferencie",
+        "respuesta":"Clase abstracta: Es una clase que no se puede instanciar, se usa para definir subclases </br> Interfaz: Es una clase completamente abstracta, sin implementacion. </br> La diferencia es que las clases abstractas sirven para manejar la jerarquia de tipos y las interfaces NO, solo establecen un contrato entre clases."
+    },
+    {
+        "pregunta":"¿Que es una transaccion?",
+        "respuesta":"Es un mecanismo que permite asegurar la ejecucion atomica de un proceso determinado.  </br> El concepto atomico se refiere a la necesidad de ejecutar un proceso como una unidad, ejecutarlo completo o no ejecutarlo en absoluto."
+    },
+    {
+        "pregunta":"Enumere el flujo de trabajo de implementacion",
+        "respuesta":"•Implementar arquitectura </br> •Integrar sistema </br> •Implementar un subsistrma </br> •Implementar una clase </br> •Realizar prueba de unidad"
+    },
+    {
+        "pregunta":"¿Que es un framework?",
+        "respuesta":"Es un conjunto de clases abstractas y concretas que colaboran entre si y que se pueden utilizar como plantilla para solucionar una familia de problemas relacionados."
     }
 ]

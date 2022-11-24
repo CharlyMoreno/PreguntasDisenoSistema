@@ -1,0 +1,27 @@
+*{
+    transition: all 1s;
+}
+
+body{
+    background-color: rgb(16, 3, 26);
+    color: white;
+}
+.btn{
+    margin-right: 1rem;
+}
+.preguntas{
+    margin-top: 1rem;
+}
+.box_respuesta{
+    max-height: 1px;
+}
+.textA{
+    background-color: rgb(32, 32, 49);
+    border: none;
+    outline: none;
+    color: white;
+}
+.textA:focus{
+    background-color: rgb(46, 46, 70);
+    color: white;
+}
