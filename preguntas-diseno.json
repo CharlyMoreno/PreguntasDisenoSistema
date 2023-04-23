@@ -1,0 +1,146 @@
+[
+    {
+        "pregunta":"¿Que son los patrones grasp?¿Para que sirven?",
+        "respuesta":"Los patrones GRASP son patrones generales de software para asignar responsabilidades. Describen los principios fundamentales del diseño de objetos y la asignación de responsabilidades, en forma de patrones </br> Una responsabilidad es la obligacion de una clase de conocer o hacer </br> Hacer: </br> •Hacer algo el mismo </br> •Iniciar una accion en otros objetos </br> •Controlar y coordinar actividad en otros objetos </br> Conocer: </br> •Conocer datos privados </br> •Iniciar una accion en otros objetos </br> •Controlar y coordinar actividad en otros objetos"
+    },
+    {
+        "pregunta":"Post condicion y estado final",
+        "respuesta":"Una post condición o garantía de éxito establece qué debe cumplirse cuando el caso de uso se completa con éxito. La garantía debería satisfacer las necesidades de todo el personal involucrado  </br> El estado final se valida que las insancias de las entidades se hayan creado o modificado"
+    },
+    {
+        "pregunta":"Cuales son los patrones grasp?",
+        "respuesta":"Son 9. Experto,Creador,Controlador,Alta cohesion,bajo acoplamiento,polimorfismo, fabricacion pura, indireccion, variaciones protegidas"
+    },
+    {
+        "pregunta":"Las 3 categorias de patrones gof son?",
+        "respuesta":"Patrones Creacionales, Patrones Estructurales, Patrones de Comportamiento"
+    }
+    ,
+    {
+        "pregunta":"GOF: Nombrar Patrones Creacionales",
+        "respuesta":"Fabrica, Singleton"
+    }    ,
+    {
+        "pregunta":"GOF: Nombrar Patrones Estructurales",
+        "respuesta":"Adaptador, Composite, Decorador, Fachada"
+    }    ,
+    {
+        "pregunta":"GOF: Nombrar Patrones de Comportamiento",
+        "respuesta":"Comando, Observador, Estrategia, Plantilla"
+    },
+    {
+        "pregunta":"Explicar el Problema/Solución del patrón DTO",
+        "respuesta":"Problema: ¿Cómo puedo intercambiar datos entre diferentes capas de una aplicación de manera de mantener un bajo acoplamiento entre ella? </br> Solución: Crear pseudo-entidades, a medida de las necesidades. Es decir, definir clases (nombradas como DTO…) con los atributos necesarios para representar los datos que se  desean intercambiar entre las diferentes capas."
+    },
+    {
+        "pregunta":"Nombrar los objetivos del Esquema de Persistencia. ",
+        "respuesta":"Guardar objetos en un mecanismo persistente. Recuperar objetos de un mecanismo persistente. Administrar las operaciones persistentes con el fin de asegurar que sean atómicas. Permitir el uso de componentes y transacciones distribuidas. Que la aplicación no quede acoplada al framework, es decir que el framework utilizado pueda cambiarse por otro framework sin afectar al experto."
+    },
+    {
+        "pregunta":"Nombrar los participantes del flujo de diseño",
+        "respuesta":"Los participantes son 3: 1) El arquitecto. 2) El ingeniero de Casos de uso. 3) El ingeniero de Componentes."
+    },
+    {
+        "pregunta":"Explicar que es la precondición del CU y relacionarlo con la condición Inicial de un CU.",
+        "respuesta":"Las precondiciones son los hechos que se han de cumplir para que el flujo de evento se pueda llevar a cabo. Las precondiciones declaran lo que DEBE ser siempre verdadero antes de iniciar el escenario en el caso de uso. Las precondiciones no son probadas dentro del caso de uso, son condiciones que se asumen verdaderas. Normalmente, una precondición implica un escenario de otro caso de uso que se ha completado satisfactoriamente <br> El estado inicial establece un punto de partida para poner en contexto la ejecucion del CU. No se confia en el, se debe asegurar estas condiciones antes de ejecutarse"
+    },
+    {
+        "pregunta":"Problema solución Estrategia",
+        "respuesta":"Problema: ¿Cómo diseñar algoritmos/políticas relacionadas? ¿Cómo diseñar estos algoritmos/políticas para que puedan cambiar? </br> Solución: Definir cada algoritmo/política en una clase independiente que implementen una interfaz común"
+    },
+    {
+        "pregunta":"Problema solución Alta Cohesión",
+        "respuesta":"Problema: ¿Cómo mantener la complejidad manejable? </br> Solución: Asignar responsabilidades de forma tal que se mantenga la alta cohesión"
+    },
+    {
+        "pregunta":"Definir instancia de CU",
+        "respuesta":"Una instancia de caso de uso es la ejecución de un caso de uso. Son los pasos que el sistema realiza cuando obedece a un caso de uso"
+    },
+    {
+        "pregunta":"Definir CU",
+        "respuesta":"Un CU es un fragmento de funcionalidad de un sistema que devuelve un resultado importante a un actor"
+    },
+    {
+        "pregunta":"Para qué sirve el patrón OID y en qué modelo se usa?",
+        "respuesta":"El patrón OID se utiliza para determinar la unicidad de una entidad en un esquema de persistencia. Se utiliza para tener algún tipo de referencia entre la entidad y los registros de la tabla correspondiente. Se usa en el modelo de diseño"
+    },
+    {
+        "pregunta":"Par Problema/solución polimorfismo",
+        "respuesta":"Problema: ¿Cómo manejar las alternativas basadas en tipos? ¿Cómo crear componentes de software conectables? </br> Solución: Asignar responsabilidades del comportamiento, mediante operaciones polimórficas, a los tipos para los que varía el comportamiento."
+    },
+    {
+        "pregunta":"Patrones GRASP relacionados con el adaptador",
+        "respuesta":"La aplicacion del patron adaptador es una especializacion de los componentes basicos GRASP ofrece VARIACIONES PROTEGIDAS de los cambios de las interfaces externas o paquetes de terceras partes mediante un objeto INDIRECCION que aplica interfaces y POLIMORFISMO"
+    },
+    {
+        "pregunta":"Indique V o F y justifique. Si un sistema se tiene que comunicar con un sistema externo tiene sentido utilizar patron indireccion",
+        "respuesta":"Verdadero. Pero si necesito comunicarme con mas de un sistema del mismo tipo o similares conviene utilizar Patron Adaptador para los mismos"
+    },
+    {
+        "pregunta":"Patron variaciones protegidas",
+        "respuesta":"Problema: ¿Como diseñar objetos, subsitemas y sistemas de manera que las variaciones o inestabilidades en estos elementos no tengan un impacto no deseable en otros elementos </br> Solucion: Identificar los puntos de variaciones previstas o de insetabilidad y asignar responsabilidades para crear una interfaz estable alrededor de ellos"
+    },
+    {
+        "pregunta":"Enuncie el patron indireccion",
+        "respuesta":"Problema: ¿Como asignar una responsabilidad sin que se acomplen directamente dos o mas objetos?¿Como desacoplar, permitiendo la reutilizacion? </br> Solucion: Asignar la responsabilidad a un objeto intermediario que medie entre otros componentes de manera que no se acoplen directamente. </br> Patrones relacionados: El objeto indireccion suele ser una fabricacion pura. Bajo acoplamiento y variaciones protegidas"
+    },
+    {
+        "pregunta":"¿Que es la cohesion?. Enuncie el patron alta cohesion, explicar relacion con acoplamiento.",
+        "respuesta":"La cohesion es la medida de fuerza en que las responsabilidades de un elemento estan relacionadas y el grado de focalizacion de las mismas </br> Problema: ¿Como mantener la complejidad manejable? </br> Solucion: Asignar respnsabilidades para mantener la alta cohesion. </br> Subir la cohesion es bueno, pero sube el acomplamiento que no es bueno. Al bajar el acoplamiento la cohesion tambien baja. Por ello lo ideal es llegar a un punto de equilibrio"
+    },{
+        "pregunta":"Patron bajo acoplamiento",
+        "respuesta":"Problema: ¿Como soportar bajas dependencias, bajo impacto del cambio e incremento de la reutilizacion? </br> Solucion: Asigne una responsabilidad de manera que el acoplamiento permanezca bajo </br> Acoplamiento: Confiar en otras clases"
+    },
+    {
+        "pregunta":"Patron experto en informacion",
+        "respuesta":"Problema: ¿Cual es el principio general para asignar responsabilidades a los objetos? </br> Solucion: Asigne una responsabilidad al experto en informacion -La clase que tiene la informacion necesaria para realizar la responsabilidad-"
+    },
+    {
+        "pregunta":"Patron creador",
+        "respuesta":"Problema: ¿Quien deberia ser el responsable de la creacion de una nueva instancia de una clase? </br> Solucion: Asignar a B la responsabilidad de crear una instancia de A si: </br> •B contiene o agrega objetos de A </br> •B registra objetos de A </br> •B utiliza mas estrechamente objetos de A </br> •B tiene los datos de inicializacion que se pasaran de un objeto de A al ser creado"
+    },
+    {
+        "pregunta":"Patron controlador",
+        "respuesta":"Problema: ¿Quien debe ser responsable de gestionar un evento del sistema? </br> Solucion: Asigne la responsabilidad de recibir o manejar un mensaje de evento del sistema a una clase que representa una de las siguientes opciones: </br> •Representa el sistema global, dispositivo o subsistems"
+    },
+    {
+        "pregunta":"Patron fabricacion pura",
+        "respuesta":"Problema: ¿Que objetos deberian rener la responsabilidad cuando no se quiere violar la alta cohesion ni bajo acoplamiento, y otros, pero las soluciones que ofrece el experto, por ejemplo, no son adecuadas? </br> Solucion: Asigne un conjunto de responsabilidades altamente cohesivo a una clase artificial o de conveniencia que no respeta un concepto del dominio del problema"
+    },
+    {
+        "pregunta":"Desventajas de la baja cohesion",
+        "respuesta":"•Dificil de entender </br> •Dificil de mantener </br> •Baja reutilizacion"
+    },
+    {
+        "pregunta":"Enumerar y desarrollar las relaciones binarias en MER",
+        "respuesta":"•1 a 1: Relaciones con el maximo de restriccion </br> •1 a N: Relaciones con algun tipo de restriccion </br> •N a N: Relaciones sin ninguna restriccion </br> •Supertipo - subtipo </br> •Reflexividad </br> En donde se reflejaba una relacion reflexiva: En la misma tabla, o en la tabla asociativa en el caso de que la relacion sea N a M </br> Sobre que atributos se aplica la segunda forma normal: Se aplica sobre los atributos compuestos"
+    },
+    {
+        "pregunta":"Justificar si puede o no existir una relacion recursiva N-N en un modelo conceptual",
+        "respuesta":"Una relacion N-N puede existir en un diagrama conceptual, pero si hablamos de diagrama entidad relacion cuando nos encontramos con una relacion N-N obligatoriamente hay que crear una tabla asociativa intermedia que contendria las 2 claves primarias de las clases."
+    },
+    {
+        "pregunta":"¿Que garantiza que un modelo de datos relacional tenga calidad?, desarrollar",
+        "respuesta":"Garantiza que este en: </br> •1 forma normal: Se define una clave unica, no nula, para una table </br> •2 forma normal: Los atributos no llave dependen del atributo llave  </br> •3 forma normal: los atributos no llave son dependientes entre si"
+    },
+    {
+        "pregunta":"Definir conceptos de clase abstracta e interfaz, diferencie",
+        "respuesta":"Clase abstracta: Es una clase que no se puede instanciar, se usa para definir subclases </br> Interfaz: Es una clase completamente abstracta, sin implementacion. </br> La diferencia es que las clases abstractas sirven para manejar la jerarquia de tipos y las interfaces NO, solo establecen un contrato entre clases."
+    },
+    {
+        "pregunta":"¿Que es una transaccion?",
+        "respuesta":"Es un mecanismo que permite asegurar la ejecucion atomica de un proceso determinado.  </br> El concepto atomico se refiere a la necesidad de ejecutar un proceso como una unidad, ejecutarlo completo o no ejecutarlo en absoluto."
+    },
+    {
+        "pregunta":"Enumere el flujo de trabajo de implementacion",
+        "respuesta":"•Implementar arquitectura </br> •Integrar sistema </br> •Implementar un subsistrma </br> •Implementar una clase </br> •Realizar prueba de unidad"
+    },
+    {
+        "pregunta":"¿Que es un framework?",
+        "respuesta":"Es un conjunto de clases abstractas y concretas que colaboran entre si y que se pueden utilizar como plantilla para solucionar una familia de problemas relacionados."
+    },
+    {
+        "pregunta":"Explicar los estereotipos del modelo de analisis",
+        "respuesta":"•Interfaz: modelan la interaccion entre los actores y el sistema. Modela la parte del sistema que depende de los actores <br> •Control: Coordinacion, secuencia, transacciones y controles de otros objetos. Encapsulan el control y la logica del CU y la del negocio. Aspectos dinamicos del sistema <br> •Entidad: Informacion que posee larga vida en el sistema y a menudo persiste. Informacion y comportamiento de un objeto o suceso del mundo real. Derivan del modelo de dominio de negocio"
+    }
+]

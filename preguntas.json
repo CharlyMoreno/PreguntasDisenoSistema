@@ -1,146 +1,142 @@
 [
-    {
-        "pregunta":"¿Que son los patrones grasp?¿Para que sirven?",
-        "respuesta":"Los patrones GRASP son patrones generales de software para asignar responsabilidades. Describen los principios fundamentales del diseño de objetos y la asignación de responsabilidades, en forma de patrones </br> Una responsabilidad es la obligacion de una clase de conocer o hacer </br> Hacer: </br> •Hacer algo el mismo </br> •Iniciar una accion en otros objetos </br> •Controlar y coordinar actividad en otros objetos </br> Conocer: </br> •Conocer datos privados </br> •Iniciar una accion en otros objetos </br> •Controlar y coordinar actividad en otros objetos"
+    { 
+        "pregunta":"Nombre los efectos de los contratos:",
+        "respuesta":"Terceros, Sucesores Universales, Libertad de Contratacion, Efecto Vinculante, Buena Fe, Caracter de las normas legales, Imprevision, Clausula Expresa, Clausula Implicita"
     },
-    {
-        "pregunta":"Post condicion y estado final",
-        "respuesta":"Una post condición o garantía de éxito establece qué debe cumplirse cuando el caso de uso se completa con éxito. La garantía debería satisfacer las necesidades de todo el personal involucrado  </br> El estado final se valida que las insancias de las entidades se hayan creado o modificado"
+    { 
+        "pregunta":"Explica el efecto de contratos: TERCEROS",
+        "respuesta":"Los contratos no tienen efectos contra los terceros, no hace surgir obligaciones a cargo de terceros, ni los terceros tienen derecho a invocarlo"
     },
-    {
-        "pregunta":"Cuales son los patrones grasp?",
-        "respuesta":"Son 9. Experto,Creador,Controlador,Alta cohesion,bajo acoplamiento,polimorfismo, fabricacion pura, indireccion, variaciones protegidas"
+    { 
+        "pregunta":"Explica el efecto de contratos: SUCESORES UNIVERSALES",
+        "respuesta":"Los efectos del contrato se extienden activa y pasivamente a los sucesores universales, a no ser que las obligaciones que de él nacen sean inherentes a la persona,"
     },
-    {
-        "pregunta":"Las 3 categorias de patrones gof son?",
-        "respuesta":"Patrones Creacionales, Patrones Estructurales, Patrones de Comportamiento"
-    }
-    ,
-    {
-        "pregunta":"GOF: Nombrar Patrones Creacionales",
-        "respuesta":"Fabrica, Singleton"
-    }    ,
-    {
-        "pregunta":"GOF: Nombrar Patrones Estructurales",
-        "respuesta":"Adaptador, Composite, Decorador, Fachada"
-    }    ,
-    {
-        "pregunta":"GOF: Nombrar Patrones de Comportamiento",
-        "respuesta":"Comando, Observador, Estrategia, Plantilla"
+    { 
+        "pregunta":"Explica el efecto de contratos:  LIBERTAD DE CONTRATACION",
+        "respuesta":"Las partes son libres para celebrar un contrato y delimitar su contenido, dentro de los límites impuestos por la ley, el orden público, la moral y las buenas costumbres."
     },
-    {
-        "pregunta":"Explicar el Problema/Solución del patrón DTO",
-        "respuesta":"Problema: ¿Cómo puedo intercambiar datos entre diferentes capas de una aplicación de manera de mantener un bajo acoplamiento entre ella? </br> Solución: Crear pseudo-entidades, a medida de las necesidades. Es decir, definir clases (nombradas como DTO…) con los atributos necesarios para representar los datos que se  desean intercambiar entre las diferentes capas."
+    { 
+        "pregunta":"Explica el efecto de contratos: EFECTO VINCULANTE",
+        "respuesta":"Todo contrato válidamente celebrado es obligatorio para las partes. Su contenido puede ser modificado o extinguido por acuerdo de partes o en los supuestos en que la ley lo prevé"
     },
-    {
-        "pregunta":"Nombrar los objetivos del Esquema de Persistencia. ",
-        "respuesta":"Guardar objetos en un mecanismo persistente. Recuperar objetos de un mecanismo persistente. Administrar las operaciones persistentes con el fin de asegurar que sean atómicas. Permitir el uso de componentes y transacciones distribuidas. Que la aplicación no quede acoplada al framework, es decir que el framework utilizado pueda cambiarse por otro framework sin afectar al experto."
+    { 
+        "pregunta":"Explica el efecto de contratos: BUENA FE",
+        "respuesta":"el contrato no se limita a las obligaciones pactadas en el mismo, sino que se integra con todas las consecuencias secundarias y accesorias que resultan intrínsecas a la naturaleza del contrato"
     },
-    {
-        "pregunta":"Nombrar los participantes del flujo de diseño",
-        "respuesta":"Los participantes son 3: 1) El arquitecto. 2) El ingeniero de Casos de uso. 3) El ingeniero de Componentes."
+    { 
+        "pregunta":"Explica el efecto de contratos: CARÁCTER DE LAS NORMAS LEGALES",
+        "respuesta":"Las normas legales relativas a los contratos son supletorias de la voluntad de las partes, a menos que de su modo de expresión, de su contenido, o de su contexto, resulte su carácter indisponible"
     },
-    {
-        "pregunta":"Explicar que es la precondición del CU y relacionarlo con la condición Inicial de un CU.",
-        "respuesta":"Las precondiciones son los hechos que se han de cumplir para que el flujo de evento se pueda llevar a cabo. Las precondiciones declaran lo que DEBE ser siempre verdadero antes de iniciar el escenario en el caso de uso. Las precondiciones no son probadas dentro del caso de uso, son condiciones que se asumen verdaderas. Normalmente, una precondición implica un escenario de otro caso de uso que se ha completado satisfactoriamente <br> El estado inicial establece un punto de partida para poner en contexto la ejecucion del CU. No se confia en el, se debe asegurar estas condiciones antes de ejecutarse"
+    { 
+        "pregunta":"Explica el efecto de contratos: IMPREVISION",
+        "respuesta":"Si en un cotnrato conmutativo la prestacion a cargo de unas de las partes se torna excesivamente onerosa, la otra parte tiene derecho a plantear la resolucion total o parcial del contrato o su adecuacion."
     },
-    {
-        "pregunta":"Problema solución Estrategia",
-        "respuesta":"Problema: ¿Cómo diseñar algoritmos/políticas relacionadas? ¿Cómo diseñar estos algoritmos/políticas para que puedan cambiar? </br> Solución: Definir cada algoritmo/política en una clase independiente que implementen una interfaz común"
+    { 
+        "pregunta":"Explica el efecto de contratos: CLAUSULA RESOLUTORIA EXPRESA",
+        "respuesta":"Las partes pueden pactar expresamente que la resolución se produzca en caso de incumplimientos genéricos o específicos debidamente identificados."
     },
-    {
-        "pregunta":"Problema solución Alta Cohesión",
-        "respuesta":"Problema: ¿Cómo mantener la complejidad manejable? </br> Solución: Asignar responsabilidades de forma tal que se mantenga la alta cohesión"
+    { 
+        "pregunta":"Nombre los derechos reales sobre cosa propia",
+        "respuesta":"Dominio, Condominio, Propiedad Horizontal, Conjuntos inmboliarios, Tiempo compartido, cementerio privado, superficie"
     },
-    {
-        "pregunta":"Definir instancia de CU",
-        "respuesta":"Una instancia de caso de uso es la ejecución de un caso de uso. Son los pasos que el sistema realiza cuando obedece a un caso de uso"
+    { 
+        "pregunta":"Nombre los derechos reales sobre cosa ajena",
+        "respuesta":"Usufructo, Uso, Habitacion, Servidumbre, Hipoteca, Anticresis, Prenda"
     },
-    {
-        "pregunta":"Definir CU",
-        "respuesta":"Un CU es un fragmento de funcionalidad de un sistema que devuelve un resultado importante a un actor"
+    { 
+        "pregunta":"Nombre las posibles extinciones de los contratos",
+        "respuesta":"Pago, Pago por compensación, Pago por subrogación, Pago por consignaciones, Pago por confusión, Pago por novación, Pago por transacción, Pago por renuncia, Pago por remisión de deuda, Pago por imposibilidad de cumplimiento, Pago por prescripción."
     },
-    {
-        "pregunta":"Para qué sirve el patrón OID y en qué modelo se usa?",
-        "respuesta":"El patrón OID se utiliza para determinar la unicidad de una entidad en un esquema de persistencia. Se utiliza para tener algún tipo de referencia entre la entidad y los registros de la tabla correspondiente. Se usa en el modelo de diseño"
+    { 
+        "pregunta":"Explica Pago por compensacion",
+        "respuesta":"cuando dos personas reúnan la calidad de deudor y acreedor recíprocamente, extinguiéndose ambas deudas hasta donde alcance la menor quedando subsistente una sola por la diferencia"
     },
-    {
-        "pregunta":"Par Problema/solución polimorfismo",
-        "respuesta":"Problema: ¿Cómo manejar las alternativas basadas en tipos? ¿Cómo crear componentes de software conectables? </br> Solución: Asignar responsabilidades del comportamiento, mediante operaciones polimórficas, a los tipos para los que varía el comportamiento."
+    { 
+        "pregunta":"Explica Pago por subrogación",
+        "respuesta":"cuando el pago de la obligación lo realiza un tercero y no el deudor, a partir de ese momento el tercero tiene todos los derechos y obligaciones y garantías que el primitivo deudor"
     },
-    {
-        "pregunta":"Patrones GRASP relacionados con el adaptador",
-        "respuesta":"La aplicacion del patron adaptador es una especializacion de los componentes basicos GRASP ofrece VARIACIONES PROTEGIDAS de los cambios de las interfaces externas o paquetes de terceras partes mediante un objeto INDIRECCION que aplica interfaces y POLIMORFISMO"
+    { 
+        "pregunta":"Pago por consignaciones",
+        "respuesta":"el depósito judicial ya que el deudor no solo tiene la obligación de pagar si no además el derecho a desobligarse"
     },
-    {
-        "pregunta":"Indique V o F y justifique. Si un sistema se tiene que comunicar con un sistema externo tiene sentido utilizar patron indireccion",
-        "respuesta":"Verdadero. Pero si necesito comunicarme con mas de un sistema del mismo tipo o similares conviene utilizar Patron Adaptador para los mismos"
+    { 
+        "pregunta":"Pago por confusión",
+        "respuesta":"cuando concurran en la misma persona la calidad de deudor y acreedor de la obligación "
     },
-    {
-        "pregunta":"Patron variaciones protegidas",
-        "respuesta":"Problema: ¿Como diseñar objetos, subsitemas y sistemas de manera que las variaciones o inestabilidades en estos elementos no tengan un impacto no deseable en otros elementos </br> Solucion: Identificar los puntos de variaciones previstas o de insetabilidad y asignar responsabilidades para crear una interfaz estable alrededor de ellos"
+    { 
+        "pregunta":"Pago por novación",
+        "respuesta":"cuando acreedor y deudor dan por extinguida una obligación pendiente y convienen en sustituirla por una nueva. La obligación antigua es la causa de la nueva prestación. "
     },
-    {
-        "pregunta":"Enuncie el patron indireccion",
-        "respuesta":"Problema: ¿Como asignar una responsabilidad sin que se acomplen directamente dos o mas objetos?¿Como desacoplar, permitiendo la reutilizacion? </br> Solucion: Asignar la responsabilidad a un objeto intermediario que medie entre otros componentes de manera que no se acoplen directamente. </br> Patrones relacionados: El objeto indireccion suele ser una fabricacion pura. Bajo acoplamiento y variaciones protegidas"
+    { 
+        "pregunta":"Pago por transacción",
+        "respuesta":"el acto por el cual las partes haciéndose concesiones reciprocas ponen fin a obligaciones que son dudosas o litigiosas"
     },
-    {
-        "pregunta":"¿Que es la cohesion?. Enuncie el patron alta cohesion, explicar relacion con acoplamiento.",
-        "respuesta":"La cohesion es la medida de fuerza en que las responsabilidades de un elemento estan relacionadas y el grado de focalizacion de las mismas </br> Problema: ¿Como mantener la complejidad manejable? </br> Solucion: Asignar respnsabilidades para mantener la alta cohesion. </br> Subir la cohesion es bueno, pero sube el acomplamiento que no es bueno. Al bajar el acoplamiento la cohesion tambien baja. Por ello lo ideal es llegar a un punto de equilibrio"
-    },{
-        "pregunta":"Patron bajo acoplamiento",
-        "respuesta":"Problema: ¿Como soportar bajas dependencias, bajo impacto del cambio e incremento de la reutilizacion? </br> Solucion: Asigne una responsabilidad de manera que el acoplamiento permanezca bajo </br> Acoplamiento: Confiar en otras clases"
+    { 
+        "pregunta":"Nombre las funciones de la responsabilidad civil",
+        "respuesta":"Preventiva, Resarcible, Sancionatoria"
     },
-    {
-        "pregunta":"Patron experto en informacion",
-        "respuesta":"Problema: ¿Cual es el principio general para asignar responsabilidades a los objetos? </br> Solucion: Asigne una responsabilidad al experto en informacion -La clase que tiene la informacion necesaria para realizar la responsabilidad-"
+    { 
+        "pregunta":"Que comprende la indemnizacion en daño resarcible?",
+        "respuesta":"Perdida de patrimonio, lucro cesante, perdida de chance"
     },
-    {
-        "pregunta":"Patron creador",
-        "respuesta":"Problema: ¿Quien deberia ser el responsable de la creacion de una nueva instancia de una clase? </br> Solucion: Asignar a B la responsabilidad de crear una instancia de A si: </br> •B contiene o agrega objetos de A </br> •B registra objetos de A </br> •B utiliza mas estrechamente objetos de A </br> •B tiene los datos de inicializacion que se pasaran de un objeto de A al ser creado"
+    { 
+        "pregunta":"Que es el lucro cesante?",
+        "respuesta":"lucro cesante es la frustración de un enriquecimiento legítimo que debe demostrarse con pautas objetivas y ciertas que se podía obtener"
     },
-    {
-        "pregunta":"Patron controlador",
-        "respuesta":"Problema: ¿Quien debe ser responsable de gestionar un evento del sistema? </br> Solucion: Asigne la responsabilidad de recibir o manejar un mensaje de evento del sistema a una clase que representa una de las siguientes opciones: </br> •Representa el sistema global, dispositivo o subsistems"
+    { 
+        "pregunta":"Que es el enriquecimiento sin causa?",
+        "respuesta":"toda persona sin una causa licita se enriquezca a expensa de otro, está obligada en la medida de su beneficio, a resarcir el detrimento patrimonial del empobrecido"
     },
-    {
-        "pregunta":"Patron fabricacion pura",
-        "respuesta":"Problema: ¿Que objetos deberian rener la responsabilidad cuando no se quiere violar la alta cohesion ni bajo acoplamiento, y otros, pero las soluciones que ofrece el experto, por ejemplo, no son adecuadas? </br> Solucion: Asigne un conjunto de responsabilidades altamente cohesivo a una clase artificial o de conveniencia que no respeta un concepto del dominio del problema"
+    { 
+        "pregunta":"Nombre las fuentes de obligacion a voluntad",
+        "respuesta":"Contrato, Titulo Valores, Voluntad Unilateral"
     },
-    {
-        "pregunta":"Desventajas de la baja cohesion",
-        "respuesta":"•Dificil de entender </br> •Dificil de mantener </br> •Baja reutilizacion"
+    { 
+        "pregunta":"Nombre las fuentes de obligacion de ley",
+        "respuesta":"Cuasi-Contrato, Abuso edl derecho, Enriquecimiento sin causa, Responsabilidad civil."
     },
-    {
-        "pregunta":"Enumerar y desarrollar las relaciones binarias en MER",
-        "respuesta":"•1 a 1: Relaciones con el maximo de restriccion </br> •1 a N: Relaciones con algun tipo de restriccion </br> •N a N: Relaciones sin ninguna restriccion </br> •Supertipo - subtipo </br> •Reflexividad </br> En donde se reflejaba una relacion reflexiva: En la misma tabla, o en la tabla asociativa en el caso de que la relacion sea N a M </br> Sobre que atributos se aplica la segunda forma normal: Se aplica sobre los atributos compuestos"
+    { 
+        "pregunta":"Que es la condicion de un acto juridico?",
+        "respuesta":"cláusula de los actos jurídicos por la cual las partes subo"
     },
-    {
-        "pregunta":"Justificar si puede o no existir una relacion recursiva N-N en un modelo conceptual",
-        "respuesta":"Una relacion N-N puede existir en un diagrama conceptual, pero si hablamos de diagrama entidad relacion cuando nos encontramos con una relacion N-N obligatoriamente hay que crear una tabla asociativa intermedia que contendria las 2 claves primarias de las clases."
+    { 
+        "pregunta":"Que es el plazo de un acto juridico?",
+        "respuesta":"Es la cláusula por la cual la exigibilidad o la extinción de un acto jurídico pueden quedar diferidas al vencimiento de un plazo"
     },
-    {
-        "pregunta":"¿Que garantiza que un modelo de datos relacional tenga calidad?, desarrollar",
-        "respuesta":"Garantiza que este en: </br> •1 forma normal: Se define una clave unica, no nula, para una table </br> •2 forma normal: Los atributos no llave dependen del atributo llave  </br> •3 forma normal: los atributos no llave son dependientes entre si"
+    { 
+        "pregunta":"Que es el cargo de un acto juridico?",
+        "respuesta":"Obligacion a la que va unida una liberalidad."
     },
-    {
-        "pregunta":"Definir conceptos de clase abstracta e interfaz, diferencie",
-        "respuesta":"Clase abstracta: Es una clase que no se puede instanciar, se usa para definir subclases </br> Interfaz: Es una clase completamente abstracta, sin implementacion. </br> La diferencia es que las clases abstractas sirven para manejar la jerarquia de tipos y las interfaces NO, solo establecen un contrato entre clases."
+    { 
+        "pregunta":"Que son las cosas fungibles?",
+        "respuesta":"Son aquellas en que todo individuo de la especie equivale a otro de la misma especie y pueden sustituirse."
     },
-    {
-        "pregunta":"¿Que es una transaccion?",
-        "respuesta":"Es un mecanismo que permite asegurar la ejecucion atomica de un proceso determinado.  </br> El concepto atomico se refiere a la necesidad de ejecutar un proceso como una unidad, ejecutarlo completo o no ejecutarlo en absoluto."
+    { 
+        "pregunta":"Que son las cosas accesorias?",
+        "respuesta":"La existencia y naturaleza son determinadas por otra cosa de la cual dependen o a la cual están adheridas."
     },
-    {
-        "pregunta":"Enumere el flujo de trabajo de implementacion",
-        "respuesta":"•Implementar arquitectura </br> •Integrar sistema </br> •Implementar un subsistrma </br> •Implementar una clase </br> •Realizar prueba de unidad"
+    { 
+        "pregunta":"Que son las cosas muebles?",
+        "respuesta":"Son las que pueden desplazarse por sí mismas o por una fuerza extraña."
     },
-    {
-        "pregunta":"¿Que es un framework?",
-        "respuesta":"Es un conjunto de clases abstractas y concretas que colaboran entre si y que se pueden utilizar como plantilla para solucionar una familia de problemas relacionados."
+    { 
+        "pregunta":"Que son las cosas inmuebles por su accesion?",
+        "respuesta":"Son las que se encuentran inmovilizadas por su adhesión física al suelo, es decir formando un todo inseparable con el suelo,"
     },
-    {
-        "pregunta":"Explicar los estereotipos del modelo de analisis",
-        "respuesta":"•Interfaz: modelan la interaccion entre los actores y el sistema. Modela la parte del sistema que depende de los actores <br> •Control: Coordinacion, secuencia, transacciones y controles de otros objetos. Encapsulan el control y la logica del CU y la del negocio. Aspectos dinamicos del sistema <br> •Entidad: Informacion que posee larga vida en el sistema y a menudo persiste. Informacion y comportamiento de un objeto o suceso del mundo real. Derivan del modelo de dominio de negocio"
+    { 
+        "pregunta":"Que son los contratos onerosos?",
+        "respuesta":"Son a título oneroso cuando las ventajas que procuran a una de las partes les son concedidas por una prestación que ella ha hecho o se obliga a la otra."
+    },
+    { 
+        "pregunta":"Que son los contratos gratuitos?",
+        "respuesta":"Son a título gratuito cuando aseguran a uno o a otro de los contratantes alguna ventaja independiente de toda prestación a su cargo"
+    },
+    { 
+        "pregunta":"Que son los contratos Conmutativos?",
+        "respuesta":" Los contratos a título oneroso son conmutativos cuando los derechos y obligaciones que asumen todos los contratantes son ciertos."
+    },
+    { 
+        "pregunta":"Nombre los elementos escensiales de los contratos",
+        "respuesta":"consentimiento, capacidad, objeto, causa, y forma"
     }
 ]
